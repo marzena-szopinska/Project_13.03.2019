@@ -7,7 +7,16 @@
 body {
     font-size: 1rem;
     color: #444;
+    font: normal 1rem/1.5 'Dosis', sans-serif;
     background-color: #FEFFEE;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 100;
 }
 
 img {
@@ -23,6 +32,8 @@ a {
     display: inline-block;
     padding: .25rem;
     text-decoration: none;
+    color: #FEFFEE;
+    text-shadow: 2px 2px 8px #444;
 }
 
 .part-1 {
@@ -35,6 +46,14 @@ a {
 
 .part-3 {
     background-color: #fda187;
+}
+
+nav div {
+    margin-bottom: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
 nav {
