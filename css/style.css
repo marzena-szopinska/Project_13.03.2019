@@ -195,40 +195,8 @@ footer span {
     .images-container img:last-of-type {
         flex-grow: 2
     }
+
+    main {
+        position: relative;
+    }
 }
-
-
-
-/*
-
-.part-1,
-.part-2,
-.part-3 {
-    padding-top: 1rem;
-    padding-right: 1rem;
-
-}
-
-.part-3 {
-    padding-top: 1rem;
-}
-
-.part-1 {
-    background-color: #97b035;
-    width: 70%;
-    border-top: 2px solid #444;
-    border-right: 2px solid #444;
-}
-
-.part-2 {
-    background-color: #f7dd32;
-    width: 65%;
-    border-top: 2px solid #444;
-    border-right: 2px solid #444;
-}
-
-.part-3 {
-    background-color: #fda187;
-}
-
-*/
