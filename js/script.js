@@ -1,4 +1,4 @@
-var picturesArray = ["images/one.jpeg", "images/two.jpeg", "images/three.jpg", "images/four.jpeg", "images/five.jpeg",
+var picturesArray = ["images/one.jpeg", "images/two.jpeg", "images/three.jpeg", "images/four.jpeg", "images/five.jpeg",
                     "images/six.jpeg", "images/seven.jpeg", "images/eight.jpeg", "images/nine.jpeg"];
 
 var main = document.querySelector('main');

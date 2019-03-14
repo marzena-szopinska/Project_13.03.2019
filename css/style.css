@@ -52,6 +52,11 @@ a {
     text-decoration: none;
     color: #FEFFEE;
     text-shadow: 2px 2px 8px #444;
+    transition: transform .3s ease;
+}
+
+a:hover {
+    transform: scaleY(1.5);
 }
 
 .part-1 {
@@ -91,6 +96,10 @@ img[alt="bird"] {
     border: 12px solid #fda187;
 }
 
+img[alt="cat"] {
+    border: 12px solid #53e0fc;
+}
+
 .main-text {
     margin-top: 1rem;
 }
@@ -125,7 +134,7 @@ footer span {
      justify-content: center;
     }
     .container {
-        width: 90%;
+        width: 63%;
     }
 
     h1 {
@@ -190,10 +199,6 @@ footer span {
 
     .images-container img {
         width: 49%;
-    }
-
-    .images-container img:last-of-type {
-        flex-grow: 2
     }
 
     main {
