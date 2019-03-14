@@ -131,6 +131,16 @@ footer span {
     h1 {
         font-size: 4rem;
     }
+
+    footer {
+        margin-top: 2rem;
+        height: 90px;
+
+    }
+
+    footer .container {
+        border-top: 1px dotted #fda187;
+    }
 }
 
 
