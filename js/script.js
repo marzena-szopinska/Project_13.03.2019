@@ -23,3 +23,23 @@ function getRandomPicture() {
     return randNumber;
 }
 
+
+// MEDIA QUERIES MATCH CHECK
+var media = window.matchMedia("(min-width: 1024px)");
+var navBarToShow = document.querySelector(".show");
+var navBarToHide = document.querySelector(".hide");
+
+function checkMedia(media) {
+    if (media.matches) {
+        navBarToHide.style.display = "none";
+        navBarToShow.style.display = "block";
+    } else {
+        navBarToHide.style.display = "block";
+        navBarToShow.style.display = "none";
+    }
+}
+// Call listener function at run time
+checkMedia(media);
+// Attach listener function on state changes
+media.addListener(checkMedia)
+
