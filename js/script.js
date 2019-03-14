@@ -17,7 +17,7 @@ main.addEventListener('mouseover', (event) => {
 });
 
 function getRandomPicture() {
-    // generate a random number between 1 and the length of the picture array
+    // generate a random number
     var randNumber = Math.floor(Math.random() * picturesArray.length);
     // return generated number
     return randNumber;

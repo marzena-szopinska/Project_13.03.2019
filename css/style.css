@@ -34,7 +34,7 @@ h2 {
 
 
 img {
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 1rem;
 }
 
@@ -64,6 +64,10 @@ a {
 
 .part-3 {
     background-color: #fda187;
+}
+
+header {
+    width: 100%;
 }
 
 nav div {
@@ -97,12 +101,39 @@ img[alt="bird"] {
 
 footer {
     height: 60px;
+    width: 100%;
 }
 
 footer span {
     font-weight: 900;
     color: #97b035;
 }
+
+@media (min-width: 768px){
+
+    body {
+        font-size: 2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header, footer {
+     display: flex;
+        justify-content: center;
+    }
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+
 
 /*
 
